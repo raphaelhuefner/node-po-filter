@@ -1,0 +1,38 @@
+{
+    "name": "po-filter",
+    "description": "Filter PO files by arbitrary rules",
+    "version": "0.0.1",
+    "author" : "Raphael Huefner",
+    "maintainers":[
+        {
+            "name":"raphaelhuefner",
+            "email":"raphaelhuefner@gmail.com"
+        }
+    ],
+    "homepage": "http://github.com/raphaelhuefner/node-po-filter",
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/raphaelhuefner/node-po-filter.git"
+    },
+    "scripts":{
+        "test": "nodeunit test/"
+    },
+    "main" : "./index",
+    "licenses" : [
+        {
+            "type": "MIT",
+            "url": "http://github.com/raphaelhuefner/node-po-filter/blob/master/LICENSE"
+        }
+    ],
+    "dependencies": {
+        "node-gettext": "0.2.9"
+    },
+    "devDependencies": {
+        "nodeunit": "*"
+    },
+    "engine": {
+        "node": ">=0.8"
+    },
+    "keywords": ["i18n", "l10n", "gettext", "po", "msggrep"]
+}
+
