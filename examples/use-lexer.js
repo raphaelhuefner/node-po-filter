@@ -4,7 +4,7 @@ var filename = process.argv[2];
 var lexer = null;
 var inStream = null;
 
-inStream = fs.createReadStream(filename, {encoding: 'utf-8'});
+inStream = fs.createReadStream(filename, {encoding: 'utf8'});
 lexer = new Lexer();
 
 lexer.on('end', function () {

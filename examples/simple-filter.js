@@ -8,7 +8,7 @@ var lexer = null;
 var parser = null;
 var inStream = null;
 
-inStream = fs.createReadStream(filename, {encoding: 'utf-8'});
+inStream = fs.createReadStream(filename, {encoding: 'utf8'});
 lexer = new Lexer();
 parser = new Parser();
 
