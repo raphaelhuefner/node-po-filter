@@ -25,10 +25,7 @@
         }
     ],
     "dependencies": {
-        "node-gettext": "0.2.9"
-    },
-    "devDependencies": {
-        "nodeunit": "*"
+        "iconv": "2.1.4"
     },
     "engine": {
         "node": ">=0.8"
