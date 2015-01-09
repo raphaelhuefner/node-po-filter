@@ -1,4 +1,9 @@
+var Lexer = require('./lib/lexer.js');
+var Parser = require('./lib/parser.js');
+var PoFileEntry = require('./lib/po-file-entry.js');
 
-// TODO expose to the world
-module.exports = {};
-
+module.exports = {
+  Lexer: Lexer,
+  Parser: Parser,
+  PoFileEntry: PoFileEntry
+};
